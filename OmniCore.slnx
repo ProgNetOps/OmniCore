@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/API/" />
+  <Folder Name="/src/Core/">
+    <Project Path="OmniCore.Application/OmniCore.Application.csproj" />
+    <Project Path="OmniCore.Domain/OmniCore.Domain.csproj" />
+  </Folder>
+  <Folder Name="/src/Infrastructure/" />
+  <Folder Name="/src/UI/" />
+  <Folder Name="/test/" />
+</Solution>
