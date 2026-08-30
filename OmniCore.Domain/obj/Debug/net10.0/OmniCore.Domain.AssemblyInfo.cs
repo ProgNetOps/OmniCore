@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OmniCore.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5d225da3d6660e934fbe2ec5a5473c94919bb36")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8fbacf9ad8a10378904a1686b1f0de4684ec590")]
 [assembly: System.Reflection.AssemblyProductAttribute("OmniCore.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OmniCore.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
