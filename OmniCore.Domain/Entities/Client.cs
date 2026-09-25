@@ -16,8 +16,7 @@ public class Client:AuditableEntity
     /// </summary>
     public string? ClientName { get; set; }
     public Guid ClientCategoryId { get; set; }
-    public ClientCategory ClientCategory { get; set; }
-
-    //List of services for a particular client
+    public ClientCategory? ClientCategory { get; set; }
+       
     public List<Circuit>? Circuits { get; set; }
 }
