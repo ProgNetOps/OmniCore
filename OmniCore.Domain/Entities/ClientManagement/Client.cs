@@ -1,5 +1,4 @@
 ﻿using OmniCore.Domain.Common;
-using OmniCore.Domain.Entities.CircuitManagement;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -8,16 +7,10 @@ namespace OmniCore.Domain.Entities.ClientManagement;
 /// Class that represents organizations that are clients to Globacom Enterprise Business
 /// </summary>
 public class Client:AuditableEntity
-{
-    
-    public Guid Id { get; set; }
-
-    /// <summary>
-    /// Name of client/customer
-    /// </summary>
+{    
+    public Guid ClientId { get; set; }
     public string? ClientName { get; set; }
     public Guid ClientCategoryId { get; set; }
-    public ClientCategory? ClientCategory { get; set; }
-       
+    public ClientCategory? ClientCategory { get; set; }       
     public List<Circuit>? Circuits { get; set; }
 }

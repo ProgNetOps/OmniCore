@@ -1,4 +1,4 @@
-﻿namespace OmniCore.Domain.Entities.Geography;
+﻿namespace OmniCore.Domain.Entities.GeoDivision;
 /// <summary>
 /// Class that represents Enterprise Zonal division comprising states
 /// </summary>

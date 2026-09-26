@@ -5,7 +5,6 @@
 /// </summary>
 public abstract class ApplicationUser
 {
-
     public Guid UserCategoryId { get; set; }
     public UserCategory? UserCategory { get; set; }
     public string? PhotoPath { get; set; }

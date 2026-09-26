@@ -1,24 +1,23 @@
-﻿using OmniCore.Domain.Entities.ClientManagement;
+﻿using OmniCore.Domain.Common;
 using OmniCore.Domain.Entities.Geography;
 using OmniCore.Domain.Entities.InfrastructureManagement;
+using OmniCore.Domain.Entities.InventoryManagement;
 
-namespace OmniCore.Domain.Entities.CircuitManagement;
+namespace OmniCore.Domain.Entities.ClientManagement;
 /// <summary>
 /// Class representing a service to a customer
 /// </summary>
-public class Circuit
+public class Circuit:AuditableEntity
 {
-    public Guid Id { get; set; }
+    public Guid CircuitId { get; set; }
     public string? LinkID { get; set; }
     public string? ODUSerialNumber { get; set; }
     public string? IDUSerialNumber { get; set; }
-
     public Guid ClientId { get; set; }
     public Client? Client { get; set; }
     public string? CircuitName { get; set; }
     public string? ServiceAddress { get; set; }
     public string? Town { get; set; }
-
     public int StateId { get; set; }
     public State? State { get; set; }
     public double? Latitude { get; set; }

@@ -1,6 +1,6 @@
-﻿using OmniCore.Domain.Entities.CircuitManagement;
+﻿using OmniCore.Domain.Entities.ClientManagement;
 
-namespace OmniCore.Domain.Entities.InfrastructureManagement;
+namespace OmniCore.Domain.Entities.InventoryManagement;
 /// <summary>
 /// The base station where services are provisioned on network equipment for customers
 /// </summary>

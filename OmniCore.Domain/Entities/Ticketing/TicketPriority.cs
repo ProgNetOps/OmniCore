@@ -1,8 +1,10 @@
-﻿namespace OmniCore.Domain.Entities.Ticketing;
+﻿using OmniCore.Domain.Common;
+
+namespace OmniCore.Domain.Entities.Ticketing;
 /// <summary>
-/// The priority a trouble ticket has that indicates the urgency it gets from customer care agents and technical support engineers
+/// The priority a trouble ticket has that indicates the urgency it gets for resolution
 /// </summary>
-public class TicketPriority
+public class TicketPriority:AuditableEntity
 {
     public Guid Id { get; set; }
 

@@ -1,6 +1,6 @@
-﻿using OmniCore.Domain.Entities.Geography;
+﻿using OmniCore.Domain.Entities.GeoDivision;
 
-namespace OmniCore.Domain.Entities.InfrastructureManagement;
+namespace OmniCore.Domain.Entities.InventoryManagement;
 
 /// <summary>
 /// No database table required, so, no Id property

@@ -1,4 +1,4 @@
-﻿namespace OmniCore.Domain.Entities.InfrastructureManagement;
+﻿namespace OmniCore.Domain.Entities.InventoryManagement;
 
 public class DCNRouter
 {
