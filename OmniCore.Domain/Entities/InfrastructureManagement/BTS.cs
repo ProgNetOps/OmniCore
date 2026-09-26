@@ -1,6 +1,4 @@
-﻿
-
-namespace OmniCore.Domain.Entities;
+﻿namespace OmniCore.Domain.Entities.InfrastructureManagement;
 /// <summary>
 /// Class that represents the Base Station
 /// </summary>

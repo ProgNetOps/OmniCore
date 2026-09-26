@@ -1,4 +1,4 @@
-﻿namespace OmniCore.Domain.Entities;
+﻿namespace OmniCore.Domain.Entities.Geography;
 /// <summary>
 /// Class that represents Enterprise Zonal division comprising states
 /// </summary>
@@ -8,5 +8,5 @@ public class Zone
     public string? ZoneName { get; set; }
     public ICollection<State>? States { get; set; }
     public int TechnicalRegionId { get; set; }
-    public TechnicalRegion TechnicalRegion { get; set; } = default!;
+    public TechnicalRegion? TechnicalRegion { get; set; }
 }

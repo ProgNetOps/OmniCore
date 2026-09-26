@@ -1,20 +1,20 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using OmniCore.Domain.Entities.ClientManagement;
+using OmniCore.Domain.Entities.Geography;
+using OmniCore.Domain.Entities.InfrastructureManagement;
 
-namespace OmniCore.Domain.Entities;
+namespace OmniCore.Domain.Entities.CircuitManagement;
 /// <summary>
 /// Class representing a service to a customer
 /// </summary>
 public class Circuit
 {
     public Guid Id { get; set; }
-
     public string? LinkID { get; set; }
     public string? ODUSerialNumber { get; set; }
     public string? IDUSerialNumber { get; set; }
 
     public Guid ClientId { get; set; }
-    public Client Client { get; set; }
+    public Client? Client { get; set; }
     public string? CircuitName { get; set; }
     public string? ServiceAddress { get; set; }
     public string? Town { get; set; }
@@ -27,34 +27,17 @@ public class Circuit
     public Service? Service { get; set; }
     public double? AnnualRevenue { get; set; }
     public double? Bandwidth { get; set; }
-
     public Guid? CircuitStateId { get; set; }
-    [ForeignKey(nameof(CircuitStateId))]
     public CircuitState? CircuitState { get; set; }
-
     public Guid? IPPoPId { get; set; }
-    [ForeignKey(nameof(IPPoPId))]
     public IPPoP? IPPoP { get; set; }
-
-    [StringLength(100)]
     public string? AccountManager { get; set; }
-
-    [StringLength(100)]
     public string? ProjectManager { get; set; }
-
-    [DataType(DataType.Date)]
     public DateOnly? ServiceStartDate { get; set; }
-
-    [StringLength(1000)]
     public string? ClientContactDetails { get; set; }
-
-    [StringLength(1000)]
     public string? InstallersContactDetails { get; set; }
-
-    //Technical Details
     public string? LastMileName { get; set; }
     public Guid? LastMileDeviceId { get; set; }
-    [ForeignKey(nameof(LastMileDeviceId))]
     public LastMileDevice? LastMileDevice { get; set; }
     public string? TransmissionPath { get; set; }
     public double? PathLength { get; set; }

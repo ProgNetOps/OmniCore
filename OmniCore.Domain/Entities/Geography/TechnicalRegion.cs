@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace OmniCore.Domain.Entities;
+namespace OmniCore.Domain.Entities.Geography;
 
 public class TechnicalRegion
 {

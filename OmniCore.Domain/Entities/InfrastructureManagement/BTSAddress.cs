@@ -1,4 +1,6 @@
-﻿namespace OmniCore.Domain.Entities;
+﻿using OmniCore.Domain.Entities.Geography;
+
+namespace OmniCore.Domain.Entities.InfrastructureManagement;
 
 /// <summary>
 /// No database table required, so, no Id property

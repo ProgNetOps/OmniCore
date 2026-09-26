@@ -1,4 +1,4 @@
-﻿namespace OmniCore.Domain.Entities;
+﻿namespace OmniCore.Domain.Entities.Geography;
 /// <summary>
 /// Class that represents the State of the Federation
 /// </summary>

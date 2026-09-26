@@ -1,4 +1,4 @@
-﻿namespace OmniCore.Domain.Entities;
+﻿namespace OmniCore.Domain.Entities.ClientManagement;
 
 public class ClientCategory
 {
