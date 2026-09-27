@@ -10,8 +10,8 @@ public class Ticket:AuditableEntity
     public Guid Id { get; set; }
     public Guid? ClientId { get; set; }
     public Client? Client { get; set; }
-    public Guid? CircuitId { get; set; }
-    public Circuit? Circuit { get; set; }
+    public Guid? LinkId { get; set; }
+    public Link? Link { get; set; }
     public Guid? TicketTypeId { get; set; }
     public TicketType? TicketType { get; set; }
     public Guid? TicketStatusId { get; set; }

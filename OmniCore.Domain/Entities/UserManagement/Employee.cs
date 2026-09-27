@@ -1,4 +1,4 @@
-﻿using OmniCore.Domain.Entities.Geography;
+﻿using OmniCore.Domain.Entities.GeoDivision;
 
 namespace OmniCore.Domain.Entities.UserManagement;
 

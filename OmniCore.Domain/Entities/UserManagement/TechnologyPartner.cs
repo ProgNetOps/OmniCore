@@ -1,6 +1,4 @@
-﻿using OmniCore.Domain.Entities.UserManagement;
-
-namespace OmniCore.Domain.Entities.ClientManagement;
+﻿namespace OmniCore.Domain.Entities.UserManagement;
 
 /// <summary>
 /// The identity class for Glo Technology Partners, it is a discriminator in the database

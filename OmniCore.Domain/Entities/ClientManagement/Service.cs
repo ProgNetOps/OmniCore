@@ -1,9 +1,9 @@
 ﻿namespace OmniCore.Domain.Entities.ClientManagement;
 /// <summary>
-/// Types of services offered eg FTTH, Internet, PRI, Leased Line, SIP
+/// Types of services offered eg FTTH, Internet, PRI, LeasedLine, SIP, IPSec etc
 /// </summary>
-public class Service
+public abstract class Service
 {
     public Guid ServiceId { get; set; }
-    public string? Name { get; set; }
+    public ICollection<BTS>? TransmissionPath { get; set; }
 }

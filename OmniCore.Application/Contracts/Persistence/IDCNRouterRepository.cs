@@ -1,5 +1,5 @@
 ﻿namespace OmniCore.Application.Contracts.Persistence;
 
-public interface IDCNRouterRepository : IAsyncRepository<DCNRouter>
+public interface IDCNRouterRepository : IAsyncRepository<Router>
 {
 }

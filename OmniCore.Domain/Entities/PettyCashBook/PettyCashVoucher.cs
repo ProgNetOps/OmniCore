@@ -11,6 +11,6 @@ public class PettyCashVoucher:AuditableEntity
     public Employee? EngineerInCharge { get; set; }
     public Employee? Payee { get; set; }
     public double Amount { get; set; }
-    public Circuit? Circuit { get; set; }
+    public Link? Link { get; set; }
     public string? Problem { get; set; }
 }

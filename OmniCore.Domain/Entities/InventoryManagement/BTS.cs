@@ -6,5 +6,5 @@ public class BTS
 {   
     public Guid BTSId { get; set; }
     public string? BTSName { get; set; }
-    public BTSAddress? Address { get; set; }
+    public Address? LocationOfBaseStation { get; set; }
 }

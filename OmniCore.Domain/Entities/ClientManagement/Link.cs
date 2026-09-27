@@ -1,43 +1,31 @@
-﻿using OmniCore.Domain.Common;
-using OmniCore.Domain.Entities.Geography;
-using OmniCore.Domain.Entities.InfrastructureManagement;
-using OmniCore.Domain.Entities.InventoryManagement;
-
+﻿
 namespace OmniCore.Domain.Entities.ClientManagement;
 /// <summary>
 /// Class representing a service to a customer
 /// </summary>
-public class Circuit:AuditableEntity
+public class Link:AuditableEntity
 {
-    public Guid CircuitId { get; set; }
-    public string? LinkID { get; set; }
-    public string? ODUSerialNumber { get; set; }
-    public string? IDUSerialNumber { get; set; }
+    public Guid LinkId { get; set; }
     public Guid ClientId { get; set; }
     public Client? Client { get; set; }
-    public string? CircuitName { get; set; }
-    public string? ServiceAddress { get; set; }
-    public string? Town { get; set; }
-    public int StateId { get; set; }
-    public State? State { get; set; }
-    public double? Latitude { get; set; }
-    public double? Longitude { get; set; }
-    public string? Coordinates { get; private set; }
+    public string? LinkName { get; set; }
+    public Address? LocationOfCustomer { get; set; }    
+    public string? ClientContactDetails { get; set; }
     public Service? Service { get; set; }
     public double? AnnualRevenue { get; set; }
     public double? Bandwidth { get; set; }
-    public Guid? CircuitStateId { get; set; }
-    public CircuitState? CircuitState { get; set; }
+    public LinkState CircuitState { get; set; }
     public Guid? IPPoPId { get; set; }
     public IPPoP? IPPoP { get; set; }
     public string? AccountManager { get; set; }
     public string? ProjectManager { get; set; }
     public DateOnly? ServiceStartDate { get; set; }
-    public string? ClientContactDetails { get; set; }
     public string? InstallersContactDetails { get; set; }
     public string? LastMileName { get; set; }
     public Guid? LastMileDeviceId { get; set; }
     public LastMileDevice? LastMileDevice { get; set; }
+    public string? ODUSerialNumber { get; set; }
+    public string? IDUSerialNumber { get; set; }
     public string? TransmissionPath { get; set; }
     public double? PathLength { get; set; }
     public int? RadioManagementVLAN { get; set; }

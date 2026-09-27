@@ -6,25 +6,22 @@ namespace OmniCore.Domain.Entities.InventoryManagement;
 /// </summary>
 public class IPPoP
 {
-    public Guid Id { get; set; }
-
+    public Guid IPPoPId { get; set; }
     /// <summary>
     /// Site Id of the point of Preference
     /// </summary>
     public string? IPPoPName { get; set; }
-
-    public Guid? BTSId { get; set; }
-    public BTS? BTS { get; set; }
-
+    public Guid? BTSId { get; set; }    public BTS? BTS { get; set; }
     /// <summary>
     /// List of switches at the PoP
     /// </summary>
-    public ICollection<NetworkSwitch>? Switches { get; set; }
-
+    public ICollection<Switch>? Switches { get; set; }
     /// <summary>
-    /// List of DCN routers at the PoP
+    /// List of routers at the PoP
     /// </summary>
-    public ICollection<DCNRouter>? Routers { get; set; }
-
-    public ICollection<Circuit>? Circuits { get; set; }
+    public ICollection<Router>? Routers { get; set; }
+    /// <summary>
+    /// List of services to customers
+    /// </summary>
+    public ICollection<Link>? Links { get; set; }
 }

@@ -12,5 +12,5 @@ public class Client:AuditableEntity
     public string? ClientName { get; set; }
     public Guid ClientCategoryId { get; set; }
     public ClientCategory? ClientCategory { get; set; }       
-    public List<Circuit>? Circuits { get; set; }
+    public ICollection<Link>? Links { get; set; }
 }

@@ -5,11 +5,14 @@ namespace OmniCore.Domain.Entities.InventoryManagement;
 /// <summary>
 /// No database table required, so, no Id property
 /// </summary>
-public class BTSAddress
+public class Address
 {
     private string? _coordinates;
-
+    /// <summary>
+    /// The address of the geographical location
+    /// </summary>
     public string? LocationAddress { get; set; }
+    public string? Town { get; set; }
     public State? State { get; set; }
     public double? Latitude { get; set; }
     public double? Longitude { get; set; }
