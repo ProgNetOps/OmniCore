@@ -3,7 +3,7 @@
 namespace OmniCore.Domain.Entities.InventoryManagement;
 
 /// <summary>
-/// No database table required, so, no Id property
+/// An owned entity used by multiple entities
 /// </summary>
 public class Address
 {

@@ -1,4 +1,4 @@
-﻿namespace OmniCore.Domain.Enums;
+﻿namespace OmniCore.Domain.Entities.Enums;
 /// <summary>
 /// The Business Unit that owns the equipment
 /// eg Glo1, DCN, Enterprise, GloMobile

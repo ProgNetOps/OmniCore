@@ -1,24 +1,17 @@
-﻿using OmniCore.Domain.Common;
+﻿using OmniCore.Domain.Entities.Enums;
 
 namespace OmniCore.Domain.Entities.InventoryManagement;
 
 /// <summary>
 /// Represents the switch on which clients' services are provisioned/ configured
 /// </summary>
-public class Switch:AuditableEntity, INetworkElement
+public class Switch:NetworkElement
 {
     public Guid SwitchId { get; set; }
-    public ICollection<Router>? UplinkDCNRouters { get; set; }
-    public ICollection<Router>? ConnectedGlo1Routers { get; set; }
-
-    //INetworkElement implementation
-    public string? BackupConfig { get; set; }
-    public IPPoP? IPPoP { get; set; }
-    public string? NetworkElementName { get; set; }
-    public string? NetworkElementModel { get; set; }
-    public NetworkElementType? NetworkElementType { get; set; }
-    public OEM? EquipmentManufacturer { get; set; }
-    public NEOwner NEOwner { get; set; }
-    public string? ManagementIpAddress { get; set; }
-    public Guid NetworkElementId { get; set; }
+    /// <summary>
+    /// A collection of DCN uplink routers and Glo1 Core routers
+    /// </summary>
+    public ICollection<Router>? ConnectedRouters { get; set; }
+    public ICollection<string>? DCNUplinkRouterInterfaces { get; set; }
+    public override NEType? NetworkElementType { get; set; } = NEType.Switch;
 }

@@ -2,7 +2,7 @@
 
 public class TechnicalRegion
 {
-    public int Id { get; set; }
+    public Guid TechnicalRegionId { get; set; }
 
     public string? RegionName { get; set; }
 

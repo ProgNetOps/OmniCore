@@ -1,8 +1,4 @@
-﻿using OmniCore.Domain.Common;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-
-namespace OmniCore.Domain.Entities.ClientManagement;
+﻿namespace OmniCore.Domain.Entities.ClientManagement;
 /// <summary>
 /// Class that represents organizations that are clients to Globacom Enterprise Business
 /// </summary>

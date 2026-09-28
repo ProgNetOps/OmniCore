@@ -1,4 +1,4 @@
-﻿namespace OmniCore.Domain.Entities.ClientManagement;
+﻿namespace OmniCore.Domain.Entities.ClientManagement.Services;
 
 public class InternetService:Service
 {
@@ -7,7 +7,6 @@ public class InternetService:Service
     public string? CustomerPublicIP { get; set; }
     public string? SubnetMask { get; set; }
     public string? Gateway { get; set; }
-    public Guid IPPoPId { get; set; }
-    public IPPoP? IPPoP { get; set; }
-    public string? Glo1RouterManagementIP { get; set; }
+    public Guid RouterId { get; set; }
+    public Router? Glo1Router { get; set; }
 }

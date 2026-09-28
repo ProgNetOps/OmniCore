@@ -1,6 +1,4 @@
-﻿using OmniCore.Domain.Common;
-
-namespace OmniCore.Domain.Entities.UserManagement;
+﻿namespace OmniCore.Domain.Entities.UserManagement;
 
 /// <summary>
 /// A categorization for users of the application

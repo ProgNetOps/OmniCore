@@ -11,7 +11,8 @@ public class IPPoP
     /// Site Id of the point of Preference
     /// </summary>
     public string? IPPoPName { get; set; }
-    public Guid? BTSId { get; set; }    public BTS? BTS { get; set; }
+    public Guid? BTSId { get; set; }    
+    public BTS? BTS { get; set; }
     /// <summary>
     /// List of switches at the PoP
     /// </summary>

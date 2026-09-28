@@ -1,4 +1,4 @@
-﻿using OmniCore.Domain.Entities.GeoDivision;
+﻿using OmniCore.Domain.Entities.Enums;
 
 namespace OmniCore.Domain.Entities.UserManagement;
 
@@ -18,7 +18,6 @@ public class Employee : ApplicationUser
     public State? State { get; set; }
     public string? OfficeAddress { get; set; }
     public string? AlternateNumber { get; set; }
-    public Guid? GenderId { get; set; }
     public Gender? Gender { get; set; }
 
 

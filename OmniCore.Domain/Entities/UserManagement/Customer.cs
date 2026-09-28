@@ -4,7 +4,7 @@
 /// </summary>
 public class Customer : ApplicationUser
 {
-    public string? CompanyName { get; set; }
-    public string? OfficeAddress { get; set; }
-
+    public Guid ClientId { get; set; }
+    public Client? Client { get; set; }
+    public string? CustomerName { get; set; }
 }

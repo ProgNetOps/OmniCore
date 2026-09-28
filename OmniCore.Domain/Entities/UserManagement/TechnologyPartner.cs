@@ -7,6 +7,5 @@ public class TechnologyPartner : ApplicationUser
 {
     public Guid TechnologyPartnerId { get; set; }
     public string? CompanyName { get; set; }
-    public string? OfficeAddress { get; set; }
 
 }

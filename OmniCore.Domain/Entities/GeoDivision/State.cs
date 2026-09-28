@@ -4,8 +4,8 @@
 /// </summary>
 public class State
 {
-    public int StateId { get; set; }
+    public Guid StateId { get; set; }
     public string? StateName { get; set; }
-    public int ZoneId { get; set; }
+    public Guid ZoneId { get; set; }
     public Zone? Zone { get; set; }
 }

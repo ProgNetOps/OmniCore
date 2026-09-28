@@ -1,6 +1,9 @@
-﻿namespace OmniCore.Domain.Entities.InventoryManagement
+﻿namespace OmniCore.Domain.Entities.InventoryManagement;
+/// <summary>
+/// An owned entity used by network elements
+/// </summary>
+public class BackupConfiguration:AuditableEntity
 {
-    public class BackupConfiguration
-    {
-    }
+    public string? BackupConfig { get; set; }
+
 }

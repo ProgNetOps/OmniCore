@@ -1,4 +1,4 @@
-﻿namespace OmniCore.Domain.Enums;
+﻿namespace OmniCore.Domain.Entities.ClientManagement.Enums;
 
 /// <summary>
 /// Enumerated list that represents the current status of the service:
