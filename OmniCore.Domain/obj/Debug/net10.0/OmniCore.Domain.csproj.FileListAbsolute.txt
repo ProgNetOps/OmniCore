@@ -10,3 +10,16 @@ C:\Users\suber\Desktop\BLAZOR\OmniCore\OmniCore.Domain\obj\Debug\net10.0\OmniCor
 C:\Users\suber\Desktop\BLAZOR\OmniCore\OmniCore.Domain\obj\Debug\net10.0\refint\OmniCore.Domain.dll
 C:\Users\suber\Desktop\BLAZOR\OmniCore\OmniCore.Domain\obj\Debug\net10.0\OmniCore.Domain.pdb
 C:\Users\suber\Desktop\BLAZOR\OmniCore\OmniCore.Domain\obj\Debug\net10.0\ref\OmniCore.Domain.dll
+C:\Users\Enterprise-NOC\Desktop\BLAZOR\OmniCore\OmniCore.Domain\bin\Debug\net10.0\OmniCore.Domain.deps.json
+C:\Users\Enterprise-NOC\Desktop\BLAZOR\OmniCore\OmniCore.Domain\bin\Debug\net10.0\OmniCore.Domain.dll
+C:\Users\Enterprise-NOC\Desktop\BLAZOR\OmniCore\OmniCore.Domain\bin\Debug\net10.0\OmniCore.Domain.pdb
+C:\Users\Enterprise-NOC\Desktop\BLAZOR\OmniCore\OmniCore.Domain\obj\Debug\net10.0\OmniCore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Enterprise-NOC\Desktop\BLAZOR\OmniCore\OmniCore.Domain\obj\Debug\net10.0\OmniCore.Domain.AssemblyInfoInputs.cache
+C:\Users\Enterprise-NOC\Desktop\BLAZOR\OmniCore\OmniCore.Domain\obj\Debug\net10.0\OmniCore.Domain.AssemblyInfo.cs
+C:\Users\Enterprise-NOC\Desktop\BLAZOR\OmniCore\OmniCore.Domain\obj\Debug\net10.0\OmniCore.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Enterprise-NOC\Desktop\BLAZOR\OmniCore\OmniCore.Domain\obj\Debug\net10.0\OmniCore.Domain.sourcelink.json
+C:\Users\Enterprise-NOC\Desktop\BLAZOR\OmniCore\OmniCore.Domain\obj\Debug\net10.0\OmniCore.Domain.dll
+C:\Users\Enterprise-NOC\Desktop\BLAZOR\OmniCore\OmniCore.Domain\obj\Debug\net10.0\refint\OmniCore.Domain.dll
+C:\Users\Enterprise-NOC\Desktop\BLAZOR\OmniCore\OmniCore.Domain\obj\Debug\net10.0\OmniCore.Domain.pdb
+C:\Users\Enterprise-NOC\Desktop\BLAZOR\OmniCore\OmniCore.Domain\obj\Debug\net10.0\ref\OmniCore.Domain.dll
+C:\Users\Enterprise-NOC\Desktop\BLAZOR\OmniCore\OmniCore.Domain\obj\Debug\net10.0\OmniCore.DAF1ED84.Up2Date

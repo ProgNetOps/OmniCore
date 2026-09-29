@@ -10,4 +10,5 @@ public abstract class Service
     public IPPoP? IPPoP { get; set; }
     public ICollection<BTS>? TransmissionPath { get; set; }
     public double? PathLength { get; set; }
+    public string? ServiceImprovementPlan { get; set; }
 }

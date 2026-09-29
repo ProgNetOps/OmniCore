@@ -11,7 +11,25 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\" />
+    <Folder Include="Features\ClientCategories\" />
+    <Folder Include="Features\Clients\" />
+    <Folder Include="Features\FiberLastMiles\" />
+    <Folder Include="Features\InternetServices\" />
+    <Folder Include="Features\IPPoPs\" />
+    <Folder Include="Features\LeasedLineServices\" />
+    <Folder Include="Features\Links\" />
+    <Folder Include="Features\Servers\" />
+    <Folder Include="Features\SIPServices\" />
+    <Folder Include="Features\Zones\" />
+    <Folder Include="Features\UserCategoriess\" />
+    <Folder Include="Features\Units\" />
+    <Folder Include="Features\TechnicalRegions\" />
+    <Folder Include="Features\States\" />
+    <Folder Include="Features\Switches\" />
+    <Folder Include="Features\Routers\" />
+    <Folder Include="Features\PettyCashVouchers\" />
+    <Folder Include="Features\PRIServices\" />
+    <Folder Include="Features\NeraRadioLastMiles\" />
     <Folder Include="Profiles\" />
   </ItemGroup>
 

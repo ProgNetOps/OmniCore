@@ -6,3 +6,5 @@ global using OmniCore.Domain.Entities.Ticketing;
 global using OmniCore.Domain.Entities.UserManagement;
 global using OmniCore.Domain.Entities.ClientManagement.Services;
 global using OmniCore.Domain.Entities.InventoryManagement.LastMiles;
+global using MediatR;
+global using AutoMapper;
