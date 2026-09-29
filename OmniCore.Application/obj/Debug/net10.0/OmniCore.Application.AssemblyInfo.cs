@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OmniCore.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3414a4d144483917e9ee9095e9520659b841304")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b86833776e78c884fbd5cc80b22ab4a291ab438a")]
 [assembly: System.Reflection.AssemblyProductAttribute("OmniCore.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OmniCore.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
