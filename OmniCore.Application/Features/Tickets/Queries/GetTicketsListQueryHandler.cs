@@ -1,6 +1,6 @@
 ﻿using OmniCore.Application.Contracts.Persistence;
 
-namespace OmniCore.Application.Features.Tickets;
+namespace OmniCore.Application.Features.Tickets.Queries;
 /// <summary>
 /// Message Handler for GetTicketsListQuery
 /// </summary>

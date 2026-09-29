@@ -1,6 +1,6 @@
-﻿
-namespace OmniCore.Application.Contracts.Persistence;
+﻿namespace OmniCore.Application.Contracts.Persistence;
 
 public interface IUserCategoryRepository : IAsyncRepository<UserCategory>
 {
+
 }

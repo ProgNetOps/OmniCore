@@ -1,7 +1,7 @@
 ﻿using OmniCore.Domain.Entities.ClientManagement.Enums;
 using OmniCore.Domain.Entities.Enums;
 
-namespace OmniCore.Application.Features.Tickets;
+namespace OmniCore.Application.Features.Tickets.Queries;
 /// <summary>
 /// Data to visualize when a list of ticket is displayed
 /// </summary>

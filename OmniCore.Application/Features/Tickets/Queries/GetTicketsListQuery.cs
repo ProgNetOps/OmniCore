@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace OmniCore.Application.Features.Tickets;
+namespace OmniCore.Application.Features.Tickets.Queries;
 /// <summary>
 /// Message
 /// </summary>

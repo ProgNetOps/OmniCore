@@ -1,4 +1,4 @@
-﻿namespace OmniCore.Application.Features.BTS
+﻿namespace OmniCore.Application.Features.BTS.Queries
 {
     public class BTSListVm
     {

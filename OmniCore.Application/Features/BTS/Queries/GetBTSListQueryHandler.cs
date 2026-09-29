@@ -1,6 +1,6 @@
 ﻿using OmniCore.Application.Contracts.Persistence;
 
-namespace OmniCore.Application.Features.BTS;
+namespace OmniCore.Application.Features.BTS.Queries;
 
 public class GetBTSListQueryHandler
     (IBTSRepository bTSRepository,

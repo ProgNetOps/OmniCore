@@ -1,6 +1,6 @@
 ﻿using OmniCore.Application.Contracts.Persistence;
 
-namespace OmniCore.Application.Features.AlcatelRadioLastMiles;
+namespace OmniCore.Application.Features.AlcatelRadioLastMiles.Queries;
 
 public class GetAlcatelRadioLastMilesListQueryHandler 
     (IAlcatelRadioLastMileRepository alcatelRadioLastMileRepository,

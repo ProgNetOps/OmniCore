@@ -11,26 +11,47 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\ClientCategories\" />
-    <Folder Include="Features\Clients\" />
-    <Folder Include="Features\FiberLastMiles\" />
-    <Folder Include="Features\InternetServices\" />
-    <Folder Include="Features\IPPoPs\" />
-    <Folder Include="Features\LeasedLineServices\" />
-    <Folder Include="Features\Links\" />
-    <Folder Include="Features\Servers\" />
-    <Folder Include="Features\SIPServices\" />
-    <Folder Include="Features\Zones\" />
-    <Folder Include="Features\UserCategoriess\" />
-    <Folder Include="Features\Units\" />
-    <Folder Include="Features\TechnicalRegions\" />
-    <Folder Include="Features\States\" />
-    <Folder Include="Features\Switches\" />
-    <Folder Include="Features\Routers\" />
-    <Folder Include="Features\PettyCashVouchers\" />
-    <Folder Include="Features\PRIServices\" />
-    <Folder Include="Features\NeraRadioLastMiles\" />
-    <Folder Include="Profiles\" />
+    <Folder Include="Features\AlcatelRadioLastMiles\Commands\" />
+    <Folder Include="Features\BTS\Commands\" />
+    <Folder Include="Features\CeragonRadioLastMiles\Commands\" />
+    <Folder Include="Features\ClientCategories\Commands\" />
+    <Folder Include="Features\Clients\Commands\" />
+    <Folder Include="Features\Clients\Queries\" />
+    <Folder Include="Features\FiberLastMiles\Commands\" />
+    <Folder Include="Features\FiberLastMiles\Queries\" />
+    <Folder Include="Features\InternetServices\Commands\" />
+    <Folder Include="Features\InternetServices\Queries\" />
+    <Folder Include="Features\IPPoPs\Commands\" />
+    <Folder Include="Features\IPPoPs\Queries\" />
+    <Folder Include="Features\LeasedLineServices\Commands\" />
+    <Folder Include="Features\LeasedLineServices\Queries\" />
+    <Folder Include="Features\Links\Commands\" />
+    <Folder Include="Features\Links\Queries\" />
+    <Folder Include="Features\NeraRadioLastMiles\Commands\" />
+    <Folder Include="Features\NeraRadioLastMiles\Queries\" />
+    <Folder Include="Features\PettyCashVouchers\Commands\" />
+    <Folder Include="Features\PettyCashVouchers\Queries\" />
+    <Folder Include="Features\PRIServices\Commands\" />
+    <Folder Include="Features\PRIServices\Queries\" />
+    <Folder Include="Features\Routers\Commands\" />
+    <Folder Include="Features\Routers\Queries\" />
+    <Folder Include="Features\Servers\Commands\" />
+    <Folder Include="Features\Servers\Queries\" />
+    <Folder Include="Features\SIPServices\Commands\" />
+    <Folder Include="Features\SIPServices\Queries\" />
+    <Folder Include="Features\States\Commands\" />
+    <Folder Include="Features\States\Queries\" />
+    <Folder Include="Features\Switches\Commands\" />
+    <Folder Include="Features\Switches\Queries\" />
+    <Folder Include="Features\TechnicalRegions\Commands\" />
+    <Folder Include="Features\TechnicalRegions\Queries\" />
+    <Folder Include="Features\Tickets\Commands\" />
+    <Folder Include="Features\Units\Commands\" />
+    <Folder Include="Features\Units\Queries\" />
+    <Folder Include="Features\UserCategoriess\Commands\" />
+    <Folder Include="Features\UserCategoriess\Queries\" />
+    <Folder Include="Features\Zones\Commands\" />
+    <Folder Include="Features\Zones\Queries\" />
   </ItemGroup>
 
   <ItemGroup>
