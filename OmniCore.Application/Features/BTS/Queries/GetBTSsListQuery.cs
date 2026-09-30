@@ -1,5 +1,5 @@
 ﻿namespace OmniCore.Application.Features.BTS.Queries;
 
-public class GetBTSListQuery:IRequest<List<BTSListVm>>
+public class GetBTSsListQuery:IRequest<List<BTSListVm>>
 {
 }

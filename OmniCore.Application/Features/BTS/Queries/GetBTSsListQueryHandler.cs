@@ -2,14 +2,14 @@
 
 namespace OmniCore.Application.Features.BTS.Queries;
 
-public class GetBTSListQueryHandler
+public class GetBTSsListQueryHandler
     (IBTSRepository bTSRepository,
     IMapper mapper) 
-    : IRequestHandler<GetBTSListQuery, List<BTSListVm>>
+    : IRequestHandler<GetBTSsListQuery, List<BTSListVm>>
 {
     private readonly IBTSRepository _bTSRepository = bTSRepository;
     private readonly IMapper _mapper = mapper;
-    public Task<List<BTSListVm>> Handle(GetBTSListQuery request, CancellationToken cancellationToken)
+    public Task<List<BTSListVm>> Handle(GetBTSsListQuery request, CancellationToken cancellationToken)
     {
         throw new NotImplementedException();
     }

@@ -17,17 +17,11 @@
     <Folder Include="Features\ClientCategories\Commands\" />
     <Folder Include="Features\Clients\Commands\" />
     <Folder Include="Features\FiberLastMiles\Commands\" />
-    <Folder Include="Features\FiberLastMiles\Queries\" />
     <Folder Include="Features\InternetServices\Commands\" />
-    <Folder Include="Features\InternetServices\Queries\" />
     <Folder Include="Features\IPPoPs\Commands\" />
-    <Folder Include="Features\IPPoPs\Queries\" />
     <Folder Include="Features\LeasedLineServices\Commands\" />
-    <Folder Include="Features\LeasedLineServices\Queries\" />
     <Folder Include="Features\Links\Commands\" />
-    <Folder Include="Features\Links\Queries\" />
     <Folder Include="Features\NeraRadioLastMiles\Commands\" />
-    <Folder Include="Features\NeraRadioLastMiles\Queries\" />
     <Folder Include="Features\PettyCashVouchers\Commands\" />
     <Folder Include="Features\PRIServices\Commands\" />
     <Folder Include="Features\Routers\Commands\" />
@@ -37,7 +31,7 @@
     <Folder Include="Features\Switches\Commands\" />
     <Folder Include="Features\TechnicalRegions\Commands\" />
     <Folder Include="Features\Tickets\Commands\" />
-    <Folder Include="Features\Units\Commands\" />
+    <Folder Include="Features\SubUnits\Commands\" />
     <Folder Include="Features\UserCategoriess\Commands\" />
     <Folder Include="Features\Zones\Commands\" />
   </ItemGroup>

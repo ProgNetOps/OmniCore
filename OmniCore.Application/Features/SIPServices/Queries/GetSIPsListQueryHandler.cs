@@ -4,9 +4,9 @@ using System.Text;
 
 namespace OmniCore.Application.Features.SIPServices.Queries;
 
-public class GetSIPsListQueryHandler : IRequestHandler<GetSIPsListQuery, List<SipListVm>>
+public class GetSIPServicesListQueryHandler : IRequestHandler<GetSIPServicesListQuery, List<SipServiceListVm>>
 {
-    public Task<List<SipListVm>> Handle(GetSIPsListQuery request, CancellationToken cancellationToken)
+    public Task<List<SipServiceListVm>> Handle(GetSIPServicesListQuery request, CancellationToken cancellationToken)
     {
         throw new NotImplementedException();
     }
