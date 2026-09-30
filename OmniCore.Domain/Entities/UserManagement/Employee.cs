@@ -9,7 +9,7 @@ public class Employee : ApplicationUser
 {
     public Guid EmployeeId { get; set; }
     public Guid? UnitId { get; set; }
-    public Unit? Unit { get; set; }
+    public SubUnit? SubUnit { get; set; }
     public string? FirstName { get; set; }
     public string? Surname { get; set; }
     public string? FullName => $"{Surname} {FirstName}";

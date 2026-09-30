@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace OmniCore.Application.Features.ClientCategories.Queries
+namespace OmniCore.Application.Features.ClientCategories.Queries;
+
+public class GetClientCategoriesListQueryHandler : IRequestHandler<GetClientCategoriesListQuery, List<ClientCategoryListVm>>
 {
-    internal class GetClientCategoriesListQueryHandler
+    public Task<List<ClientCategoryListVm>> Handle(GetClientCategoriesListQuery request, CancellationToken cancellationToken)
     {
+        throw new NotImplementedException();
     }
 }
